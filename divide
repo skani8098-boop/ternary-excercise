@@ -1,0 +1,14 @@
+package kanishka;
+import java.util.Scanner;
+public class divide {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int number=Sc.nextInt();
+		String result=(number%7==0)? "Divisible for 7":"not divisible for7";
+		System.out.println(result);
+			
+	}
+
+}
