@@ -1,0 +1,15 @@
+package kanishka;
+import java.util.Scanner;
+
+public class lastnumber {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("enter a:");
+		int number=Sc.nextInt();
+		String result=(number%10==5)?"last digit is 5":"last digit is not 5";
+		System.out.println(result);
+
+	}
+
+}
