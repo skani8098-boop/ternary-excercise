@@ -1,0 +1,15 @@
+package kanishka;
+import java.util.Scanner;
+
+public class vote {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("Enter a:");
+		int age=Sc.nextInt();
+		String result=(age>=18)?"Eligible to vote":"not Eligible to vote";
+		System.out.println(result);
+
+	}
+
+}
