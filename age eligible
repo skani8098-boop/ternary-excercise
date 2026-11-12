@@ -1,0 +1,16 @@
+package kanishka;
+import java.util.Scanner;
+
+
+public class age {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("Enter a:");
+		int age=Sc.nextInt();
+		String result=(age>=18)?"Eligible": "noteligible";
+		System.out.println(result);
+
+	}
+
+}
